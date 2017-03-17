@@ -104,7 +104,8 @@ setup(name='avocado-plugins-vt',
               'vt-bootstrap = avocado_vt.plugins.vt_bootstrap:VTBootstrap',
               ],
           'avocado.plugins.job.prepost': [
-              'vt-joblock = avocado_vt.plugins.vt_joblock:VTJobLock'
+              'vt-joblock = avocado_vt.plugins.vt_joblock:VTJobLock',
+              'vt-jobparams = avocado_vt.plugins.vt_jobparams:VTJobParams'
               ],
           },
       )
